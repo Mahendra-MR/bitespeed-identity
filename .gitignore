@@ -1,0 +1,22 @@
+# Node
+node_modules/
+dist/
+build/
+
+# Env
+.env
+
+# Prisma
+.prisma/
+.env.*
+
+# System
+.DS_Store
+*.log
+
+# VSCode
+.vscode/
+
+# Tests
+test/*.json
+forTest.py
