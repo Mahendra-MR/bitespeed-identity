@@ -45,7 +45,7 @@ This project implements an identity reconciliation system that consolidates cust
 ## Tech Stack
 
 * **Backend**: Node.js, Express
-* **Database**: PostgreSQL (via Docker)
+* **Database**: PostgreSQL (local via Docker and remote via Render)
 * **ORM**: Prisma
 * **Language**: TypeScript
 
@@ -96,6 +96,8 @@ DATABASE_URL=postgresql://postgres:postgres@localhost:5433/bitespeed
 PORT=3000
 ```
 
+For deployment (e.g. Render), replace `DATABASE_URL` with the hosted PostgreSQL URI.
+
 ---
 
 ## Example Test Execution
@@ -133,6 +135,7 @@ curl.exe -X POST http://localhost:3000/api/identify \
 * Add automated tests (Jest or Supertest)
 * Rate limiting to prevent abuse
 * UI dashboard for managing and viewing linked identities
+* CI/CD workflow for deployment automation
 
 ---
 
