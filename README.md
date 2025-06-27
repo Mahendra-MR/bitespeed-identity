@@ -4,9 +4,9 @@ This project implements an identity reconciliation system that consolidates cust
 
 ## Hosted Endpoint
 
-```
-POST /api/identify
-```
+**POST** [`https://bitespeed-identity-0ww5.onrender.com/api/identify`](https://bitespeed-identity-0ww5.onrender.com/api/identify)
+
+---
 
 ## Sample Request
 
@@ -64,7 +64,7 @@ POST /api/identify
 ### 1. Clone & Install
 
 ```bash
-git clone <https://github.com/Mahendra-MR/bitespeed-identity.git>
+git clone https://github.com/Mahendra-MR/bitespeed-identity.git
 cd bitespeed-identity
 npm install
 ```
@@ -122,7 +122,7 @@ curl.exe -X POST http://localhost:3000/api/identify \
 │   └── *.json
 ├── docker-compose.yml
 ├── package.json
-└── tsconfig.json
+├── tsconfig.json
 └── run-tests.ps1
 ```
 
@@ -130,17 +130,17 @@ curl.exe -X POST http://localhost:3000/api/identify \
 
 ## Improvements
 
-* Add automated tests (Jest or Supertest).
-* Rate limiting to prevent spam.
-* Add UI dashboard for viewing linked identities.
+* Add automated tests (Jest or Supertest)
+* Rate limiting to prevent abuse
+* UI dashboard for managing and viewing linked identities
 
 ---
 
 ## Contact
 
-**Built by:** Mahendra M R  
-**Email:** [mrmahendra1206@gmail.com](mailto:mrmahendra1206@gmail.com)  
-**Phone:** +91 9606458627  
+**Built by:** Mahendra M R
+**Email:** [mrmahendra1206@gmail.com](mailto:mrmahendra1206@gmail.com)
+**Phone:** +91 9606458627
 **Portfolio:** [https://mahendra-mr.netlify.app](https://mahendra-mr.netlify.app)
 
 ---
